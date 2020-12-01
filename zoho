@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class zoho {
+    static int i=1;
+    public  static  void  main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int ii=1;ii<=n;ii++){
+        space(ii,n);
+        number(ii);
+        System.out.println("");
+        }
+        }
+        public static void space(int i, int n)
+        {
+            int s=n-i;
+            for(int j=0;j<s;j++)
+            {
+                System.out.print(" ");
+            }
+        }
+        public static void number(int last)
+        {
+            for(int x=0;x<last;x++)
+            {
+                System.out.print(i);
+                i++;
+            }
+        }
+    }
